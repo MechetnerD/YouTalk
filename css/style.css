@@ -143,6 +143,10 @@ table {
 
 /* #endregion */
 /* #region HEADLINE */
+.headline {
+  margin-bottom: 59px;
+}
+
 .headline__title {
   margin-bottom: 24px;
   font-weight: bold;

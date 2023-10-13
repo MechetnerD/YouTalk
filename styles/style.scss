@@ -52,7 +52,7 @@
 /* #region HEADLINE */
 
 .headline {
-
+ margin-bottom: 59px;
 }
 
 .headline__title {
@@ -224,11 +224,10 @@ gap: 8px;
 }
 /* #endregion ARTICLE-CONTENT */
 .footer {
-    margin: 0 auto  ;
+    margin: 0 auto;
     width: 320px;
     padding: 35px 14px 37px 18px;
     background-color: #2963A3;
-
 }
 
 .footer__link {
