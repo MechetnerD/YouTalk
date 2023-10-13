@@ -224,8 +224,8 @@ gap: 8px;
 }
 /* #endregion ARTICLE-CONTENT */
 .footer {
-
-    width: 320px;
+display: flex;
+    width: 100%;
     padding: 35px 14px 37px 18px;
     background-color: #2963A3;
 
