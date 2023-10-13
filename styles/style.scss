@@ -10,7 +10,7 @@
 }
 
 .page__header {
-    margin: 0 0 24px;
+    margin-bottom: 24px;
 }
 
 .page__breadcrumbs {
@@ -18,7 +18,7 @@
 }
 
 .container {
-    margin: 0 auto 59px;
+    margin: 0 auto;
     padding: 0 16px;
     width: 320px;
     overflow: hidden;
@@ -224,8 +224,8 @@ gap: 8px;
 }
 /* #endregion ARTICLE-CONTENT */
 .footer {
-display: flex;
-    width: 100%;
+    margin: 0 auto  ;
+    width: 320px;
     padding: 35px 14px 37px 18px;
     background-color: #2963A3;
 
