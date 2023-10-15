@@ -15,7 +15,7 @@
       <div class="header__content">
         <a href="#" class="logo">
           <svg class="logo-container">
-            <use href="images/icons/logo.svg#logo"></use>
+            <use href="/images/icons/logo.svg#logo"></use>
           </svg>
         </a>
         <a href="#" class="header__burger-menu">
@@ -28,7 +28,7 @@
   </header>
 
   <main class="main">
-    <div class="breadcrumbs page__breadcrumbs">
+    <div class="breadcrumbs page__breadcrumbs" hidden>
       <div class="container">
         <div class="breadcrumbs-content">
           <a class="breadcrumbs-link" href="#">Главная</a>
@@ -63,8 +63,8 @@
         </div>
 
         <div class="post-list headline__post-list">
-          <article class="post post-list__item">
-            <div class="post__image">
+          <article class="post">
+            <div class="post__image-container">
               <img src="images/icons/first-post__image.png" alt="Eggs">
 
               <div class="post__image__categories categories__filter">
@@ -76,14 +76,14 @@
                 </a>
               </div>
             </div>
-            <div class="container__post-content">
-              <div class="post__head">
+            <div class="post__content">
+              <div class="post__title">
                 Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
               </div>
               <div class="post__author">
                 Автор:Лиза Файнтух
               </div>
-              <div class="post__content">
+              <div class="post__text">
                 Изначально термин «эмоциональное сфер и относился...
               </div>
               <div class="post__date">
@@ -93,8 +93,8 @@
             
           </article>
 
-          <article class="post post-list__item">
-            <div class="post__image">
+          <article class="post">
+            <div class="post__image-container">
               <img src="images/icons/second-post__image.png" alt="Runner">
 
               <div class="post__image__categories categories__filter">
@@ -105,14 +105,14 @@
 
               </div>
             </div>
-            <div class="container__post-content">
-            <div class="post__head">
+            <div class="post__content">
+            <div class="post__title">
               Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
             </div>
             <div class="post__author">
               Автор:Лиза Файнтух
             </div>
-            <div class="post__content">
+            <div class="post__text">
               Изначально термин «эмоциональное сфер и относился...
             </div>
             <div class="post__date">
@@ -121,8 +121,8 @@
             </div>
           </article>
 
-          <article class="post post-list__item">
-            <div class="post__image">
+          <article class="post">
+            <div class="post__image-container">
               <img src="images/icons/third-post__image.png" alt="Sleep">
               <div class="article-content__image__categories categories__filter">
                 <a href="" class="categories__link categories__link--unicorn categories__link__post">
@@ -133,14 +133,14 @@
                 </a>
               </div>
             </div>
-            <div class="container__post-content">
-            <div class="post__head">
+            <div class="post__content">
+            <div class="post__title">
               Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
             </div>
             <div class="post__author">
               Автор:Лиза Файнтух
             </div>
-            <div class="post__content">
+            <div class="post__text">
               Изначально термин «эмоциональное сфер и относился...
             </div>
             <div class="post__date">
@@ -148,8 +148,8 @@
             </div>
           </div>
           </article>
-          <article class="post post-list__item">
-            <div class="post__image">
+          <article class="post">
+            <div class="post__image-container">
               <img src="images/icons/fourth-post__image.png" alt="Water">
               <div class="article-content__image__categories categories__filter">
                 <a href="" class="categories__link categories__link--unicorn categories__link__post">
@@ -157,14 +157,14 @@
                 </a>
               </div>
             </div>
-            <div class="container__post-content">
-            <div class="post__head">
+            <div class="post__content">
+            <div class="post__title">
               Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
             </div>
             <div class="post__author">
               Автор:Лиза Файнтух
             </div>
-            <div class="post__content">
+            <div class="post__text">
               Изначально термин «эмоциональное сфер и относился...
             </div>
             <div class="post__date">
@@ -185,58 +185,63 @@
   </main>
 
 
-  <footer class="footer">
-       <div class="footer__link">
-        <div class="footer__link--breadcrumbs">
-            <a class="footer__link--link" href="#">О нас</a>
-            <a class="footer__link--link" href="#">Тарифы</a>
-            <a class="footer__link--link" href="#">Для бинеса</a>
-            <a class="footer__link--link" href="#">Психологам</a>
-            <a class="footer__link--link" href="#">FAQ</a>
+  <footer class="footer" hidden>
+       <div class="footer__nav footer-nav">
+        <div class="footer-nav__list">
+            <a class="footer-nav__link" href="#">О нас</a>
+            <a class="footer-nav__link" href="#">Тарифы</a>
+            <a class="footer-nav__link" href="#">Для бинеса</a>
+            <a class="footer-nav__link" href="#">Психологам</a>
+            <a class="footer-nav__link" href="#">FAQ</a>
         </div>
-        <div class="footer__link--headlines">
-            <a class="footer__link--link" href="#">Блог</a>
-            <a class="footer__link--link" href="#">Вебинары</a>
-            <a class="footer__link--link" href="#">Подкаст</a>
-            <a class="footer__link--link" href="#">Сертификаты</a>
-            <a class="footer__link--link" href="#">Контакты</a>
+        <div class="footer-nav__list">
+            <a class="footer-nav__link" href="#">Блог</a>
+            <a class="footer-nav__link" href="#">Вебинары</a>
+            <a class="footer-nav__link" href="#">Подкаст</a>
+            <a class="footer-nav__link" href="#">Сертификаты</a>
+            <a class="footer-nav__link" href="#">Контакты</a>
         </div>
       </div>
-      <p>Одно письмо в неделю со</p>
-      <p>свежими</p> 
-      <p>новостями и акциями</p>
-      <div class="text-field">
-        <input class="text-field__input" type="text"  value="Ваш e-mail">
+
+      <p class="footer__newsletter newsletter">Одно письмо в неделю со свежими
+        <br>
+        новостями и акциями
+      </p>
+      <div class="footer__subscribe">
+        <input class="subscribe" type="email" placeholder="Ваш e-mail"  >
+        <button class="send">
+          <img src="/images/icons/send.png" alt="send" width="20px" height="14px">
+        </button>
       </div>
-      <div class="arrangment">
+      <div class="footer__arrangment">
         Подписываясь, я соглашаюсь на обработку
         персональных данных в соответствии с ФЗ
         РФ № 152-ФЗ «О персональных данных», а
         также с Политикой конфиденциальности
       </div>
   
-      <div class="member">
+      <div class="footer__member">
         <img src="/images/icons/member.png" alt="sk-member">
       </div>
   
-      <div class="socialmedia-logo">
-        <a href="#" class="socialmedia-logo__icons">
+      <div class="footer__socialmedia">
+        <a href="#" class="socialmedia__icons">
           <img src="/images/icons/vk-logo.png" alt="vk" width="20px" height="12px">
         </a>
-        <a href="#" class="socialmedia-logo__icons">
+        <a href="#" class="socialmedia__icons">
           <img src="/images/icons/telegram-logo.png" alt="telegram" width="16px" height="14px">
         </a>
-        <a href="#" class="socialmedia-logo__icons">
+        <a href="#" class="socialmedia__icons">
           <img src="/images/icons/twitre-logo.png" alt="twiter" width="18px" height="18px">
         </a>
-        <a href="#" class="socialmedia-logo__icons">
+        <a href="#" class="socialmedia__icons">
           <img src="/images/icons/yandex-logo.png" alt="yandex" width="32px" height="32px">
         </a>    
       </div>
-      <div class="copyright">
-        <p class="copyright-list">&#169 Youtalk, 2018 – 2022</p>
-        <a href="#" class="copyright-list">Юридические документы</a>
-        <a href="#" class="copyright-list">Способы оплаты</a>
+      <div class="footer__copyright">
+        <p class="copyright__list">&#169 Youtalk, 2018 – 2022</p>
+        <a href="#" class="copyright__list">Юридические документы</a>
+        <a href="#" class="copyright__list">Способы оплаты</a>
       </div>
     
     
