@@ -3,29 +3,39 @@
 @import 'utils/_vars';
 @import 'utils/_mixins';
 @import 'fonts/typography';
+@import 'blocks/page';
+@import 'blocks/container';
 @import 'blocks/header';
 @import 'blocks/headline';
 @import 'blocks/breadcrumbs';
 @import 'blocks/post';
+@import 'blocks/article';
+@import 'blocks/circle';
+@import 'blocks/marker';
+@import 'blocks/quote';
+@import 'blocks/caption';
+@import 'blocks/exercise';
+@import 'blocks/design';
 @import 'blocks/footer';
 
-.page {
-    font-family: "Montserrat", sans-serif;
-}
 
-.page__header {
-    margin-bottom: 24px;
-}
 
-.page__breadcrumbs {
-    margin: 0 0 24px;
-}
 
-.container {
-    margin: 0 auto;
-    padding: 0 16px;
-    width: 320px;
-    overflow: hidden;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

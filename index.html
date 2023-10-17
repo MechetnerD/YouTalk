@@ -28,7 +28,7 @@
   </header>
 
   <main class="main">
-    <div class="breadcrumbs page__breadcrumbs" hidden>
+    <div class="breadcrumbs page__breadcrumbs" >
       <div class="container">
         <div class="breadcrumbs-content">
           <a class="breadcrumbs-link" href="#">Главная</a>
@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <div class="headline">
+    <section class="headline page__headline--home">
       <div class="container">
         <h1 class="headline__title">
           Блог
@@ -67,7 +67,7 @@
             <div class="post__image-container">
               <img src="images/icons/first-post__image.png" alt="Eggs">
 
-              <div class="post__image__categories categories__filter">
+              <div class="post__image-categories categories__filter">
                 <a href="" class="categories__link categories__link--unicorn categories__link__post ">
                   Самооценка и самопринятие
                 </a>
@@ -173,20 +173,19 @@
             </div>
           </article>
         </div>
-
-        
-          <a href="" class="btn btn--more">
-            Ещё
-          </a>
+       
+        <a href="#" class="btn btn--more">
+          Ещё
+        </a>
         
       </div> <!-- container closing -->
-    </div>
-
+    </section>
   </main>
 
 
-  <footer class="footer" hidden>
-       <div class="footer__nav footer-nav">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__nav footer-nav">
         <div class="footer-nav__list">
             <a class="footer-nav__link" href="#">О нас</a>
             <a class="footer-nav__link" href="#">Тарифы</a>
@@ -202,15 +201,14 @@
             <a class="footer-nav__link" href="#">Контакты</a>
         </div>
       </div>
-
       <p class="footer__newsletter newsletter">Одно письмо в неделю со свежими
         <br>
         новостями и акциями
       </p>
-      <div class="footer__subscribe">
-        <input class="subscribe" type="email" placeholder="Ваш e-mail"  >
+      <div class="footer__subscribe subscribe">
+        <input class="subscribe__input" type="email" placeholder="Ваш e-mail"  >
         <button class="send">
-          <img src="/images/icons/send.png" alt="send" width="20px" height="14px">
+          <!-- <img src="/images/icons/send.png" alt="send" width="20px" height="14px"> -->
         </button>
       </div>
       <div class="footer__arrangment">
@@ -243,6 +241,11 @@
         <a href="#" class="copyright__list">Юридические документы</a>
         <a href="#" class="copyright__list">Способы оплаты</a>
       </div>
+
+    </div>
+
+
+      
     
     
 

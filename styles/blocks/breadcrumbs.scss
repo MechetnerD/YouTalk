@@ -1,23 +1,24 @@
 
 
-.breadcrumbs-content {
-  height: 18px;
-  display: flex;
-}
+.breadcrumbs {
+  &-content {
+    height: 18px;
+    display: flex;
+  }
 
-.breadcrumbs-link {
-  
-  font-size: 12px;
-  font-weight: normal;
-  color: rgba(51, 51, 51, 0.70);
-  line-height: 18px;
-  letter-spacing: 0.25px;
-}
+  &-link {
+    
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(51, 51, 51, 0.70);
+    line-height: 18px;
+    letter-spacing: 0.25px;
+  }
 
-.breadcrumbs-arrow {
-  margin-left: 4px;
-  margin-right: 8px;
-
-  height: 16px;
-  width: 16px;
+  &-arrow {
+    margin-left: 4px;
+    margin-right: 8px;
+    height: 16px;
+    width: 16px;
+  }
 }
