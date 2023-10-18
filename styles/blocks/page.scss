@@ -1,0 +1,18 @@
+.page {
+  font-family: "Montserrat", sans-serif;
+
+  &__header {
+    margin-bottom: 24px;
+  }
+  
+  &__breadcrumbs {
+    margin: 0 0 24px;
+  }
+  
+  &__headline  {
+    &--home {
+        margin-bottom: 59px;
+    }
+  }
+}
+

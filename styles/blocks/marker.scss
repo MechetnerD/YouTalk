@@ -1,0 +1,30 @@
+.marker {
+    &-list__title{
+        margin-bottom: 8px; 
+        font-weight: 700;
+        line-height: 24px;
+        color: #050404;
+        }
+    
+    &-list {
+      display: flex;
+      gap: 8px;
+      color: #333;
+      font-weight: 500;
+      line-height: 24px;
+      
+      &--underline {
+          text-decoration-line: underline;
+      }
+    }
+  
+    &-list__item {
+      color: #333;
+      font-weight: 500;
+      line-height: 24px;
+      
+      &--underline {
+          text-decoration-line: underline;
+      }
+    }
+}

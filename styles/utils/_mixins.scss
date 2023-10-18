@@ -1,0 +1,5 @@
+@mixin onMobile-l {
+  @media (min-width: 414px) {
+    @content;
+  }
+}

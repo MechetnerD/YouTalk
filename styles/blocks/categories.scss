@@ -1,0 +1,70 @@
+.categories {
+  display: flex;
+  gap: 8px;
+  overflow-x: scroll;
+  width: max-content;
+
+ &::-webkit-scrollbar {
+     display: none;
+ }
+ 
+ &__filter{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+ }
+  
+  &__link__post{
+    display: inline-flex;
+    padding: 6px 8px;
+    margin-bottom: 8px;
+    align-items: flex-start;
+    gap: 4px;
+    border: 1px solid #C1C5CD;
+    background: rgba(255, 255, 255, 0.70);
+  }
+  
+ 
+ &__link {
+     padding: 6px 8px;
+     width: max-content;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 4px;
+     
+     color: #333;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 20px;
+     border-radius: 24px;
+     border: 1px solid #C1C5CD;
+ }
+ 
+ &__link--smile::before {
+     content: "";
+     display: block;
+     width: 18px;
+     height: 18px;
+     background-image: url("/images/icons/smile.png");
+ }
+ 
+ &__link--unicorn::before {
+     content: "";
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 18px;
+     height: 18px;
+     padding: 1px;
+     background-image: url("/images/icons/unicorn.png");
+
+ }
+
+ &__link--unicorn--self {
+    @include onMobile-l {
+        border: 2px solid #16C8BB;
+     }
+ }
+}
+

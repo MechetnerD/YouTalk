@@ -1,0 +1,32 @@
+
+.headline {
+    &__title {
+        margin-bottom: 24px;
+        
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333;
+   
+        @include onMobile-l {
+           font-size: 32px;
+           line-height: 40px;
+        }
+        
+    }
+    &__categories {
+        margin-bottom: 24px;
+   
+        @include onMobile-l{
+           margin-bottom: 16px;
+        }
+    }
+    
+    &__post-list {
+        margin: 0 0 28px;
+    }
+}
+
+
+ 
+ 

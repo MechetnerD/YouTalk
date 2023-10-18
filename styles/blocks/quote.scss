@@ -1,0 +1,39 @@
+.quote {
+  &--bluebgr{
+  padding: 26px 16px 16px;
+  border-radius: 16px;
+  background:  url('../images/icons/quote.png'),#F3F7FE;
+  background-size: 24px 36px, 100%;
+  background-position: top 16px left 16px, center;
+  background-repeat: no-repeat;
+}
+
+  &__text {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; 
+  }
+  
+  &__author {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  &--redspot{
+    margin-bottom: 16px;
+    align-content: center;
+    background-image: url(../images/icons/redspot.svg#redspot);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: visible;
+  }
+
+  &__text--redspot {
+   text-align: center;
+
+  }
+}
