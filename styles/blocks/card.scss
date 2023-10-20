@@ -1,0 +1,65 @@
+
+.card{
+  margin-bottom: 24px;
+
+  
+  &__gift{
+    padding-top: 60px;
+    height: 292px;
+
+    border-radius: 16px;
+
+    text-align: center ;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFF;
+
+    background-color: #2963A3;
+    background-image: url('../images/icons/redbox.png'), url('../images/icons/yellowbox.png'), url('../images/icons/bluebox.png'), url('../images/icons/gift.png');
+    background-position: bottom right, bottom left 10px, bottom right, top;
+    background-repeat: no-repeat;
+  }
+
+  &__appointment{
+    padding: 24px 25px;
+
+    border-radius: 16px;
+    background-color: #E6F0FD;
+
+  }
+
+  &__psyhologist{
+  padding: 16px 19px 36px;
+  display: flex;
+
+
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  border-radius: 16px;
+  border: 1px solid #DEDEDE;
+
+  background: #FFF;
+  }
+
+  &__tariff{
+    margin-bottom: 60px;
+    padding: 16px;
+    display: flex;
+
+
+    flex-direction: column;
+    gap: 16px;
+
+    border-radius: 16px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+
+    background-image: url('/images/icons/tariff-bluebox.png'), url('/images/icons/tariff-redbox.png');
+    background-position: bottom 0 right 0, bottom 0 right 42px;
+    background-repeat: no-repeat;
+  }
+
+}

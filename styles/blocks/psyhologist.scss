@@ -1,0 +1,32 @@
+.psyhologist{
+
+  &__container-categories{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  &__foto-container{
+   
+    height: 120px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+  &__facts{
+    margin-bottom: 16px;
+    padding: 0 19px;
+    border-bottom: 1px solid #DEDEDE;
+  }
+
+  &__work-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  }

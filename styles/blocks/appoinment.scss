@@ -1,0 +1,33 @@
+.appointment{
+
+  &__img{
+    margin-bottom: 24px;
+    height: 206px;
+
+    background-image: url('../images/icons/app-img.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+  }
+
+  &__title{
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+
+    color:  #333;
+  }
+
+  &__text{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    color:  #333;
+
+  }
+}

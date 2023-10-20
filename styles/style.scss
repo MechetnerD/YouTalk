@@ -18,127 +18,13 @@
 @import 'blocks/caption';
 @import 'blocks/exercise';
 @import 'blocks/design';
+@import 'blocks/card';
+@import 'blocks/psyhologist';
+@import 'blocks/work-list';
+@import 'blocks/facts';
+@import 'blocks/appoinment';
+@import 'blocks/tariff';
 @import 'blocks/footer';
-
-
-.card{
-  margin-bottom: 24px;
-
-  
-  &__gift{
-    padding-top: 60px;
-    height: 292px;
-
-    border-radius: 16px;
-
-    text-align: center ;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 40px;
-    color: #FFF;
-
-    background-color: #2963A3;
-    background-image: url('../images/icons/redbox.png'), url('../images/icons/yellowbox.png'), url('../images/icons/bluebox.png'), url('../images/icons/gift.png');
-    background-position: bottom right, bottom left 10px, bottom right, top;
-    background-repeat: no-repeat;
-  }
-
-  &__appointment{
-    padding: 24px 25px;
-
-    border-radius: 16px;
-    background-color: #E6F0FD;
-
-  }
-
-  &__psyhologist{
-  padding: 16px 19px 36px;
-  display: flex;
-
-
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-
-  border-radius: 16px;
-  border: 1px solid #DEDEDE;
-
-  background: #FFF;
-  }
-
-}
-
-.psyhologist{
-  &__foto-container{
-    width: 100%;
-    margin-bottom: 16px;
-    position: relative;
-
-  }
-  &__foto-typework{
-    display: flex;
-    flex-direction: column;
-
-  }
-
-}
-
-
-
-.typework{
-  &__filter{
-    position: absolute;
-    top: -5px;
-    left: -6px;
-
-  }
-
-  &__link{
-
-  }
-
-  &__link--chat{
-
-  }
-
-  &__link--video{
-
-  }
-}
-
-.appointment{
-
-  &__img{
-    margin-bottom: 24px;
-    height: 206px;
-
-    background-image: url('../images/icons/app-img.png');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-
-  }
-
-  &__title{
-    margin-bottom: 11px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-
-    color:  #333;
-  }
-
-  &__text{
-    margin-bottom: 24px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-
-    color:  #333;
-
-  }
-}
 
 
 

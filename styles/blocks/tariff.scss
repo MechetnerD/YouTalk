@@ -1,0 +1,48 @@
+.tariff{
+  &__subtitle{
+    display: flex;
+    
+    gap: 4px;
+    justify-content: flex-start;
+    align-items: center;
+  
+  
+    &--amt{
+      font-size: 24px;
+      color: #2963A3;
+      font-weight: 700;
+      line-height: 32px;
+
+    }
+
+    &--type{
+      font-size: 18px;
+      color: #2963A3;
+      font-weight: 700;
+      line-height: 26px;
+  
+
+    }
+
+  }
+
+  &__description{
+    display: flex;
+    align-self: stretch;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333;
+  }
+
+  &__price{
+    font-size: 24px;
+    
+    font-weight: 700;
+    line-height: 32px;
+    color: #333;
+  }
+}
+
