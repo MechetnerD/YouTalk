@@ -46,16 +46,29 @@
     }
   &__paragraph--quote {
     margin-bottom: 40px;
+
+    @include onMobile-l {
+      margin-bottom: 24px;
+    }
   }
 
   &__block {
     &--mb-16 {
         margin-bottom: 16px;
-    }
-    &--mb8{
-      margin-bottom: 8px;
 
+      }
+
+    &--mb-8 {
+      margin-bottom: 8px;
+      
     }
+
+    &--mb-24 {
+        @include onMobile-l {
+          margin-bottom: 24px;
+        }
+    }
+    
   }
 
   &__subtitle {
@@ -66,6 +79,10 @@
     font-weight: 700;
     
     color: #333;
+        @include onMobile-l {
+          margin-bottom: 16px;
+        }
+
   }
 
   &__paragraph {
@@ -74,6 +91,9 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+          @include onMobile-l {
+            margin-bottom: 16px;
+          }
     }
 
     &__quote {

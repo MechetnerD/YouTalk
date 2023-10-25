@@ -4,8 +4,17 @@
   overflow-x: scroll;
   width: max-content;
 
+  @include onTablet{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+ 
+    }
+
  &::-webkit-scrollbar {
      display: none;
+
+    
  }
  
  &__filter{

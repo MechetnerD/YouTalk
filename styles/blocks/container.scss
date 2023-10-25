@@ -5,7 +5,12 @@
   overflow: hidden;
 
   @include onMobile-l {
+    width: 414px;
       padding: 0 20px;
-      width: 414px;
+  }
+
+  @include onTablet {
+    width: 768px;
+    
   }
 }

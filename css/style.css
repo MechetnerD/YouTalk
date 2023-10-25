@@ -90,8 +90,13 @@ table {
 }
 @media (min-width: 414px) {
   .container {
-    padding: 0 20px;
     width: 414px;
+    padding: 0 20px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
   }
 }
 
@@ -181,6 +186,13 @@ table {
   gap: 8px;
   overflow-x: scroll;
   width: max-content;
+}
+@media (min-width: 768px) {
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
 }
 .categories::-webkit-scrollbar {
   display: none;
@@ -294,10 +306,19 @@ table {
   border-radius: 16px;
   overflow: hidden;
 }
-.post-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+@media (min-width: 768px) {
+  .post--size-s {
+    display: block;
+    width: 352px;
+  }
+}
+.post--onTablet {
+  display: none;
+}
+@media (min-width: 768px) {
+  .post--onTablet {
+    display: block;
+  }
 }
 .post__image-container {
   width: 100%;
@@ -356,6 +377,20 @@ table {
   line-height: 18px;
   letter-spacing: 0.25px;
   color: #868686;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .post-list--rest-of-posts {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
 }
 
 .btn {
@@ -434,11 +469,21 @@ table {
 .article__paragraph--quote {
   margin-bottom: 40px;
 }
+@media (min-width: 414px) {
+  .article__paragraph--quote {
+    margin-bottom: 24px;
+  }
+}
 .article__block--mb-16 {
   margin-bottom: 16px;
 }
-.article__block--mb8 {
+.article__block--mb-8 {
   margin-bottom: 8px;
+}
+@media (min-width: 414px) {
+  .article__block--mb-24 {
+    margin-bottom: 24px;
+  }
 }
 .article__subtitle {
   margin-bottom: 8px;
@@ -447,12 +492,22 @@ table {
   font-weight: 700;
   color: #333;
 }
+@media (min-width: 414px) {
+  .article__subtitle {
+    margin-bottom: 16px;
+  }
+}
 .article__paragraph {
   margin-bottom: 8px;
   color: #333;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+@media (min-width: 414px) {
+  .article__paragraph {
+    margin-bottom: 16px;
+  }
 }
 .article__quote {
   margin-bottom: 16px;
@@ -560,12 +615,15 @@ table {
   line-height: 24px;
 }
 .quote--redspot {
-  margin-bottom: 16px;
+  height: 176px;
+  padding: 8px 0 0;
+  /* margin-bottom: 16px; */
+  /*  */
   align-content: center;
   background-image: url(../images/icons/redspot.svg#redspot);
-  background-position: center;
+  background-size: 240px 168px;
+  background-position: top 4px center;
   background-repeat: no-repeat;
-  overflow: visible;
 }
 .quote__text--redspot {
   text-align: center;
@@ -764,10 +822,24 @@ table {
   padding: 35px 0;
   background-color: #2963A3;
 }
+@media (min-width: 768px) {
+  .footer__Tablet {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+  }
+}
 .footer-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 .footer__nav {
   margin-bottom: 23px;
@@ -817,6 +889,13 @@ table {
   flex-direction: column;
   gap: 20px;
 }
+@media (min-width: 768px) {
+  .footer__copyright {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+}
 
 .newsletter {
   font-size: 18px;
@@ -831,6 +910,11 @@ table {
   background-clip: border-box;
   border-radius: 4px;
   overflow: hidden;
+}
+@media (min-width: 768px) {
+  .subscribe {
+    width: 384px;
+  }
 }
 .subscribe__input {
   padding: 14px 52px 14px 16px;

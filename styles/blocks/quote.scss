@@ -1,5 +1,6 @@
 .quote {
-  &--bluebgr{
+
+  &--bluebgr {
   padding: 26px 16px 16px;
   border-radius: 16px;
   background:  url('../images/icons/quote.png'),#F3F7FE;
@@ -24,12 +25,16 @@
   }
 
   &--redspot{
-    margin-bottom: 16px;
-    align-content: center;
+    height: 176px;
+    padding: 8px 0 0;
+
+    /* margin-bottom: 16px; */
+    /*  */align-content: center;
     background-image: url(../images/icons/redspot.svg#redspot);
-    background-position: center;
+    background-size: 240px 168px;
+    background-position: top 4px center;
     background-repeat: no-repeat;
-    overflow: visible;
+    
   }
 
   &__text--redspot {
