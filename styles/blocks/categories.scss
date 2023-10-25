@@ -4,25 +4,24 @@
   overflow-x: scroll;
   width: max-content;
 
-  @include onTablet{
+  @include onTablet {
     display: flex;
     flex-wrap: wrap;
     width: auto;
  
-    }
+  }
 
  &::-webkit-scrollbar {
      display: none;
 
-    
  }
  
- &__filter{
+ &__filter {
   position: absolute;
   top: 8px;
   left: 8px;
 
-  &--psyhologist{
+  &--psyhologist {
     position: absolute;
     top: -8px;
     left: 0px;
@@ -31,7 +30,7 @@
 
  
   
-  &__link__post{
+  &__link__post {
     display: inline-flex;
     padding: 6px 8px;
     margin-bottom: 8px;
@@ -41,7 +40,7 @@
     background: rgba(255, 255, 255, 0.70);
   }
 
-  &__link__post--psyhologist{
+  &__link__post--psyhologist {
     display: inline-flex;
     padding: 0px 6px;
     margin-bottom: 8px;
@@ -95,7 +94,7 @@
      }
  }
 
- &__link--psyhologist{
+ &__link--psyhologist {
     padding: 0px 6px;
     width: max-content;
     display: flex;

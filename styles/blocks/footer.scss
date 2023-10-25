@@ -2,8 +2,8 @@
     padding: 35px 0;
     background-color: #2963A3;
 
-    &__Tablet{
-        @include onTablet{
+    &__Tablet {
+        @include onTablet {
             display: flex;
             flex-direction: row;
             gap: 31px;
@@ -16,7 +16,7 @@
         flex-direction: row;
         justify-content: space-between;
 
-        @include onTablet{
+        @include onTablet {
             display: flex;
             flex-direction: row;
             gap: 30px;
@@ -74,7 +74,7 @@
         border-bottom: 2px solid rgba(157,157,157,0.3);
     }
 
-    &__copyright{
+    &__copyright {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -86,79 +86,4 @@
         }
     }
     
-}
-
-.newsletter {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26px;
-    color: #FFF;
-}
-.subscribe {
-    width: 100%;  
-    background: #FFF;
-    background-clip: border-box;
-    border-radius: 4px;
-    overflow: hidden;
-
-    @include onTablet{
-        width: 384px;
-    }
-
-
-    &__input {
-        padding: 14px 52px 14px 16px;
-        outline: none;
-        border: none;
-    }
-
-    &__input::placeholder {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        color: #9d9d9d;
-    }
-}
-
-.send {
-    display: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0;
-       
-    width: 64px;
-    background:  url('/images/send/send.png'), #16c8bb;
-    background-size: 24px, cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    border: none;
-    border-radius: 4px;
-
-    @include onMobile-l {
-        display: block;
-    }
-}
-
-.socialmedia__icons {
-    width: 32px;
-    height: 32px;
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color:  #EFF5FB;
-    border-radius: 60px;
-}
-
-.copyright__list {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    color: rgba(255,255,255,0.3);
 }

@@ -87,32 +87,3 @@
   }
 }
 
-.post-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  &--first-2-posts {
-  
-    @include onTablet {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: 24px;
-      row-gap: 24px;
-    }
-
-
-  }
-
-  &--rest-of-posts {
-
-    @include onTablet {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: 24px;
-      row-gap: 24px;
-    }
-  }
-
-}
-

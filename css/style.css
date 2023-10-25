@@ -97,6 +97,7 @@ table {
 @media (min-width: 768px) {
   .container {
     width: 768px;
+    padding: 0 20px;
   }
 }
 
@@ -561,7 +562,6 @@ table {
   width: 24px;
   height: 24px;
 }
-
 .circle--psyhologist {
   width: 20px;
   height: 20px;
