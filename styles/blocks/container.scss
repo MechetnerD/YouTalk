@@ -13,4 +13,18 @@
     width: 768px;
     padding: 0 20px;
   }
+  
+  &__sidebar {
+
+    @include onTablet {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 16px;
+      row-gap: 36px;
+    }
+  
+  
+  }
+
+
 }

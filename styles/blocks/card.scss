@@ -2,6 +2,11 @@
 .card {
   margin-bottom: 24px;
 
+  @include onTablet {
+    width: 356px;
+
+  }
+
   
   &__gift{
     padding-top: 60px;
@@ -19,6 +24,10 @@
     background-image: url('/images/card__gift/redbox.png'), url('/images/card__gift/yellowbox.png'), url('/images/card__gift/bluebox.png'), url('/images/card__gift/gift.png');
     background-position: bottom right, bottom left 10px, bottom right, top;
     background-repeat: no-repeat;
+
+    @include onTablet {
+      height: 248px;
+    }
   }
 
   &__appointment{
@@ -60,6 +69,15 @@
     background-image: url('/images/card__tariff/tariff-bluebox.png'), url('/images/card__tariff/tariff-redbox.png');
     background-position: bottom 0 right 0, bottom 0 right 42px;
     background-repeat: no-repeat;
+
+    @include onMobile-l {
+      padding: 24px;
+      margin-bottom: 127px;
+    }
+
+    @include onTablet {
+      margin-bottom: 59px;
+    }
   }
 
 }

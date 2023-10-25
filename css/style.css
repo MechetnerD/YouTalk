@@ -115,6 +115,14 @@ table {
     padding: 0 20px;
   }
 }
+@media (min-width: 768px) {
+  .container__sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 36px;
+  }
+}
 
 .header {
   display: flex;
@@ -671,11 +679,6 @@ table {
   font-weight: 400;
   line-height: 24px;
 }
-@media (min-width: 768px) {
-  .quote__text {
-    padding: 24px 103px 48px 141px;
-  }
-}
 .quote__author {
   font-size: 16px;
   font-weight: 700;
@@ -694,6 +697,11 @@ table {
 }
 .quote__text--redspot {
   text-align: center;
+}
+@media (min-width: 768px) {
+  .quote__text--redspot {
+    padding: 24px 103px 48px 141px;
+  }
 }
 
 .caption {
@@ -739,6 +747,11 @@ table {
 .card {
   margin-bottom: 24px;
 }
+@media (min-width: 768px) {
+  .card {
+    width: 356px;
+  }
+}
 .card__gift {
   padding-top: 60px;
   height: 292px;
@@ -752,6 +765,11 @@ table {
   background-image: url("/images/card__gift/redbox.png"), url("/images/card__gift/yellowbox.png"), url("/images/card__gift/bluebox.png"), url("/images/card__gift/gift.png");
   background-position: bottom right, bottom left 10px, bottom right, top;
   background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .card__gift {
+    height: 248px;
+  }
 }
 .card__appointment {
   padding: 24px 25px;
@@ -780,6 +798,17 @@ table {
   background-image: url("/images/card__tariff/tariff-bluebox.png"), url("/images/card__tariff/tariff-redbox.png");
   background-position: bottom 0 right 0, bottom 0 right 42px;
   background-repeat: no-repeat;
+}
+@media (min-width: 414px) {
+  .card__tariff {
+    padding: 24px;
+    margin-bottom: 127px;
+  }
+}
+@media (min-width: 768px) {
+  .card__tariff {
+    margin-bottom: 59px;
+  }
 }
 
 .psyhologist__container-categories {
