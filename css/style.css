@@ -243,7 +243,7 @@ table {
   display: block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/icons/smile.png");
+  background-image: url("/images/categories-link/smile.png");
 }
 .categories__link--unicorn::before {
   content: "";
@@ -253,7 +253,7 @@ table {
   width: 18px;
   height: 18px;
   padding: 1px;
-  background-image: url("/images/icons/unicorn.png");
+  background-image: url("/images/categories-link/unicorn.png");
 }
 @media (min-width: 414px) {
   .categories__link--unicorn--self {
@@ -281,7 +281,7 @@ table {
   align-items: center;
   width: 16px;
   height: 24px;
-  background-image: url("/images/icons/paper.png");
+  background-image: url("/images/card__psyhologist/paper.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -293,7 +293,7 @@ table {
   align-items: center;
   width: 16px;
   height: 24px;
-  background-image: url("/images/icons/camera.png");
+  background-image: url("/images/card__psyhologist/camera.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -383,6 +383,14 @@ table {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+@media (min-width: 768px) {
+  .post-list--first-2-posts {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
 }
 @media (min-width: 768px) {
   .post-list--rest-of-posts {
@@ -596,7 +604,7 @@ table {
 .quote--bluebgr {
   padding: 26px 16px 16px;
   border-radius: 16px;
-  background: url("../images/icons/quote.png"), #F3F7FE;
+  background: url("/images/quote/quote.png"), #F3F7FE;
   background-size: 24px 36px, 100%;
   background-position: top 16px left 16px, center;
   background-repeat: no-repeat;
@@ -620,7 +628,7 @@ table {
   /* margin-bottom: 16px; */
   /*  */
   align-content: center;
-  background-image: url(../images/icons/redspot.svg#redspot);
+  background-image: url(/images/quote/redspot.svg#redspot);
   background-size: 240px 168px;
   background-position: top 4px center;
   background-repeat: no-repeat;
@@ -654,7 +662,7 @@ table {
 .design {
   margin-bottom: 16px;
   height: 32px;
-  background-image: url("../images/icons/design.png");
+  background-image: url("/images/page_designe/designe.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -672,7 +680,7 @@ table {
   line-height: 40px;
   color: #FFF;
   background-color: #2963A3;
-  background-image: url("../images/icons/redbox.png"), url("../images/icons/yellowbox.png"), url("../images/icons/bluebox.png"), url("../images/icons/gift.png");
+  background-image: url("/images/card__gift/redbox.png"), url("/images/card__gift/yellowbox.png"), url("/images/card__gift/bluebox.png"), url("/images/card__gift/gift.png");
   background-position: bottom right, bottom left 10px, bottom right, top;
   background-repeat: no-repeat;
 }
@@ -700,7 +708,7 @@ table {
   border-radius: 16px;
   border: 1px solid #DEDEDE;
   background: #FFF;
-  background-image: url("/images/icons/tariff-bluebox.png"), url("/images/icons/tariff-redbox.png");
+  background-image: url("/images/card__tariff/tariff-bluebox.png"), url("/images/card__tariff/tariff-redbox.png");
   background-position: bottom 0 right 0, bottom 0 right 42px;
   background-repeat: no-repeat;
 }
@@ -762,7 +770,7 @@ table {
 .appointment__img {
   margin-bottom: 24px;
   height: 206px;
-  background-image: url("../images/icons/app-img.png");
+  background-image: url("/images/appoitment/app-img.png");
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -937,7 +945,7 @@ table {
   right: 0px;
   bottom: 0;
   width: 64px;
-  background: url("../images/icons/send.png"), #16c8bb;
+  background: url("/images/send/send.png"), #16c8bb;
   background-size: 24px, cover;
   background-repeat: no-repeat;
   background-position: center;
