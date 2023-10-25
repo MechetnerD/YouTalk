@@ -7,6 +7,20 @@
   
   &__breadcrumbs {
     margin: 0 0 24px;
+
+    @include onMobile-l {
+      margin: 0 0 32px;
+    }
+
+    @include onTablet {
+      margin: 0 0 40px;
+    }
+
+    &--post {
+      @include onTablet {
+        margin: 0 0 54px;
+      }
+  }
   }
   
   &__headline  {

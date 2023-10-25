@@ -1,10 +1,22 @@
 .article {
   &__title {
     margin-bottom: 8px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #333;
+
+    @include onMobile-l {
+      font-size: 32px;
+      line-height: 40px
+    }
+
+    @include onTablet {
+      margin-bottom: 16px;
+
+      font-size: 48px;
+      line-height: 56px;
+    }
   } 
 
   &__description {
@@ -13,7 +25,11 @@
 
   &__picture {
     width: 100%;
-    }
+
+  }
+
+ 
+
 
   &__picture--h160 {
     
@@ -23,12 +39,25 @@
       object-position: center;
     }
 
-  &__picture--h380 {
+    &__picture--h331 {
     
+      height: 331px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+  &__picture--h380 {
       height: 380px;
       width: 100%;
       object-fit: cover;
       object-position: center;
+
+      &--ontablet {
+        @include onTablet {
+          width: 294px;
+        }
+      }
     }
 
     &__picture--h235 {
@@ -71,6 +100,10 @@
         @include onMobile-l {
           margin-bottom: 24px;
         }
+
+        @include onTablet {
+          margin-bottom: 24px;
+        }
     }
     
   }
@@ -95,9 +128,17 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-          @include onMobile-l {
+         
+    @include onMobile-l {
             margin-bottom: 16px;
           }
+    &--3-ontablet{
+      @include onTablet {
+          display: flex;
+          gap: 16px;
+    }
+
+    }
     }
 
     &__quote {
@@ -114,6 +155,10 @@
     gap: 8px;
     align-self: stretch;
     border-radius: 16px;
+
+    @include onTablet {
+      margin-bottom: 24px;
+    }
   
 
       &--yellow {

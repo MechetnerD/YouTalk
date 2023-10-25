@@ -10,4 +10,12 @@
   letter-spacing: 0.25px;
 
   color: #868686;
+
+  @include onMobile-l {
+    margin-bottom: 24px;
+  }
+
+  @include onTablet {
+    margin-bottom: 24px;
+  }
 }
