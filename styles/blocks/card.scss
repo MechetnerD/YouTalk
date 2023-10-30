@@ -3,7 +3,7 @@
   margin-bottom: 24px;
 
   @include onTablet {
-    width: 356px;
+    width: calc(50% - 8px);
 
   }
 

@@ -2,8 +2,8 @@
 .btn {
   margin: 0 auto;
   padding: 12px 16px;
-  
-  width: 182px;
+  width: max-content;
+ 
   
   display: flex;
   justify-content: center;
@@ -12,20 +12,21 @@
   text-align: center;
   background-color: #35B3A9;
   border-radius: 4px;
+  font-family: 'Montserrat-bold';
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; 
 
   &--more {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px; 
+    width: 182px;
+     
     color: #FFF;
   }
 
   &--details {
     width: 100%;
 
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px; 
     color: #FFF;
     border: none;
   }
@@ -36,9 +37,29 @@
     
     border: none;
 
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px; 
+   
     color: #FFF;
   }
+
+  &--header {
+    margin: 0;
+    display: none;
+    
+    padding: 14px 20px;
+    align-items: center;
+    border-radius: 4px;
+    background: #E3F5F5;
+    color: #03B2A5;
+
+    @include onTablet-l{
+      display: flex;
+      position: absolute;
+      right: 0;
+    
+  
+    }
+
+
+  }
+
 }

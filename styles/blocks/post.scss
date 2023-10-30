@@ -11,6 +11,26 @@
       display: block;
       width: 352px;
     }
+
+    @include onTablet-l {
+      width: 304px;
+    }
+
+    @include onDekstop {
+      width: 384px;
+    }
+
+
+  }
+
+  &--size-l {
+    @include onTablet-l {
+      width: 468px;
+    }
+
+    @include onDekstop {
+      width: 588px;
+    }
   }
 
   &--onTablet {
@@ -45,10 +65,10 @@
     margin-bottom: 4px;
     display: flex;
     align-self: stretch;
-    
+    font-family:'Montserrat-semibold';
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 26px; 
     color: #333;
   }

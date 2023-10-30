@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: white;
+
+  @include onTablet {
+    gap: 24px;
+  }
+
+  @include onDekstop {
+    gap: 23px;
+  }
 
   &--first-2-posts {
   
@@ -11,6 +20,14 @@
       column-gap: 24px;
       row-gap: 24px;
     }
+
+    @include onTablet-l {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      }
+
+
 
 
   }
@@ -22,6 +39,17 @@
       flex-wrap: wrap;
       column-gap: 24px;
       row-gap: 24px;
+    }
+
+    @include onTablet-l {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 24px;
+    }
+    
+    @include onDekstop {
+      row-gap: 23px;
     }
   }
 

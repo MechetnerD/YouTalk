@@ -3,6 +3,10 @@
 
   &__header {
     margin-bottom: 24px;
+
+    @include onMobile-l {
+      margin-bottom: 16px;
+    }
   }
   
   &__breadcrumbs {
@@ -16,6 +20,10 @@
       margin: 0 0 40px;
     }
 
+    @include onDekstop {
+      margin: 0 0 30px;
+    }
+
     &--post {
       @include onTablet {
         margin: 0 0 54px;
@@ -26,7 +34,21 @@
   &__headline  {
     &--home {
         margin-bottom: 59px;
+
+        @include onTablet {
+          margin-bottom: 55px;
+        }
+    
+        @include onTablet-l {
+          margin-bottom: 60px;
+        }
+    
+        @include onDekstop {
+          margin-bottom: 96px;
+        }
     }
+
+    
   }
 }
 

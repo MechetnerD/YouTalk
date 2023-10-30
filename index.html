@@ -18,6 +18,40 @@
             <use href="/images/header/logo.svg#logo"></use>
           </svg>
         </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="" class="nav__link">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Тарифы</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Для бизнеса</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Психологам</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Сертификаты</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Материалы</a>
+              <svg class="nav__link--img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" fill="none">
+                <path d="M2.10001 4.8999L7.00001 9.0999L11.9 4.8999" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn--header">
+          Подобрать психолога
+        </a>
+
         <a href="#" class="header__burger-menu">
           <svg class="header__burger-menu-container">
             <use href="images/header/burger.svg#burger"></use>
@@ -39,7 +73,7 @@
     </div>
 
     <section class="headline page__headline--home">
-      <div class="container">
+      <div class="container container--designe">
         <h1 class="headline__title">
           Блог
         </h1>
@@ -76,7 +110,7 @@
 
         <div class="post-list headline__post-list">
           <div class="post-list--first-2-posts">
-            <article class="post">
+            <article class="post post--size-l">
               <div class="post__image-container">
                 <img src="images/post-list/width1024/1-post__image.png" alt="Eggs">
 
@@ -106,7 +140,7 @@
 
             </article>
 
-            <article class="post">
+            <article class="post post--size-l">
               <div class="post__image-container">
                 <img src="images/post-list/width1024/2-post__image.png" alt="Runner">
 
@@ -298,67 +332,73 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer__Tablet">
-        <div class="footer__nav footer-nav">
-          <div class="footer-nav__list">
-            <a class="footer-nav__link" href="#">О нас</a>
-            <a class="footer-nav__link" href="#">Тарифы</a>
-            <a class="footer-nav__link" href="#">Для бинеса</a>
-            <a class="footer-nav__link" href="#">Психологам</a>
-            <a class="footer-nav__link" href="#">FAQ</a>
+      <div class="footer__Tablet--l">
+        <div class="footer__Tablet--s">
+          <div class="footer__nav footer-nav">
+            <div class="footer-nav__list">
+              <a class="footer-nav__link" href="#">О нас</a>
+              <a class="footer-nav__link" href="#">Тарифы</a>
+              <a class="footer-nav__link" href="#">Для бинеса</a>
+              <a class="footer-nav__link" href="#">Психологам</a>
+              <a class="footer-nav__link" href="#">FAQ</a>
+            </div>
+            <div class="footer-nav__list">
+              <a class="footer-nav__link" href="#">Блог</a>
+              <a class="footer-nav__link" href="#">Вебинары</a>
+              <a class="footer-nav__link" href="#">Подкаст</a>
+              <a class="footer-nav__link" href="#">Сертификаты</a>
+              <a class="footer-nav__link" href="#">Контакты</a>
+            </div>
           </div>
-          <div class="footer-nav__list">
-            <a class="footer-nav__link" href="#">Блог</a>
-            <a class="footer-nav__link" href="#">Вебинары</a>
-            <a class="footer-nav__link" href="#">Подкаст</a>
-            <a class="footer-nav__link" href="#">Сертификаты</a>
-            <a class="footer-nav__link" href="#">Контакты</a>
+          <div class="footer__sub">
+            <p class="footer__newsletter newsletter">Одно письмо в неделю со свежими
+              <br>
+              новостями и акциями
+            </p>
+            <div class="footer__subscribe subscribe">
+              <input class="subscribe__input" type="email" placeholder="Ваш e-mail">
+              <button class="send">
+              </button>
+            </div>
+            <div class="footer__arrangment">
+              Подписываясь, я соглашаюсь на обработку
+              персональных данных в соответствии с ФЗ
+              РФ № 152-ФЗ «О персональных данных», а
+              также с Политикой конфиденциальности
+            </div>
           </div>
         </div>
-        <div class="footer__sub">
-          <p class="footer__newsletter newsletter">Одно письмо в неделю со свежими
-            <br>
-            новостями и акциями
-          </p>
-          <div class="footer__subscribe subscribe">
-            <input class="subscribe__input" type="email" placeholder="Ваш e-mail">
-            <button class="send">
-            </button>
+
+
+
+        <div class="footer__media">
+          <div class="footer__member">
+            <img src="/images/footer__member/member.png" alt="sk-member">
           </div>
-          <div class="footer__arrangment">
-            Подписываясь, я соглашаюсь на обработку
-            персональных данных в соответствии с ФЗ
-            РФ № 152-ФЗ «О персональных данных», а
-            также с Политикой конфиденциальности
+
+          <div class="footer__socialmedia">
+            <a href="#" class="socialmedia__icons">
+              <img src="/images/socialmedia__icons/vk-logo.png" alt="vk" width="20px" height="12px">
+            </a>
+            <a href="#" class="socialmedia__icons">
+              <img src="/images/socialmedia__icons/telegram-logo.png" alt="telegram" width="16px" height="14px">
+            </a>
+            <a href="#" class="socialmedia__icons">
+              <img src="/images/socialmedia__icons/twitre-logo.png" alt="twiter" width="18px" height="18px">
+            </a>
+            <a href="#" class="socialmedia__icons">
+              <img src="/images/socialmedia__icons/yandex-logo.png" alt="yandex" width="32px" height="32px">
+            </a>
           </div>
         </div>
       </div>
-     
-      
 
-      <div class="footer__member">
-        <img src="/images/footer__member/member.png" alt="sk-member">
-      </div>
 
-      <div class="footer__socialmedia">
-        <a href="#" class="socialmedia__icons">
-          <img src="/images/socialmedia__icons/vk-logo.png" alt="vk" width="20px" height="12px">
-        </a>
-        <a href="#" class="socialmedia__icons">
-          <img src="/images/socialmedia__icons/telegram-logo.png" alt="telegram" width="16px" height="14px">
-        </a>
-        <a href="#" class="socialmedia__icons">
-          <img src="/images/socialmedia__icons/twitre-logo.png" alt="twiter" width="18px" height="18px">
-        </a>
-        <a href="#" class="socialmedia__icons">
-          <img src="/images/socialmedia__icons/yandex-logo.png" alt="yandex" width="32px" height="32px">
-        </a>
-      </div>
-      <div class="footer__copyright">
-        <p class="copyright__list">&#169 Youtalk, 2018 – 2022</p>
-        <a href="#" class="copyright__list">Юридические документы</a>
-        <a href="#" class="copyright__list">Способы оплаты</a>
-      </div>
+        <div class="footer__copyright">
+          <p class="copyright__list">&#169 Youtalk, 2018 – 2022</p>
+          <a href="#" class="copyright__list">Юридические документы</a>
+          <a href="#" class="copyright__list">Способы оплаты</a>
+        </div>
 
     </div>
 

@@ -2,8 +2,8 @@
 .headline {
     &__title {
         margin-bottom: 24px;
-        
-        font-weight: bold;
+        font-family: 'Montserrat-bold';
+        font-weight: 700;
         font-size: 24px;
         line-height: 32px;
         color: #333;
@@ -13,6 +13,11 @@
            line-height: 40px;
         }
         
+        @include onTablet {
+            margin-bottom: 32px;
+            font-size: 48px;
+            line-height: 56px;    
+        }
     }
     &__categories {
         margin-bottom: 24px;
@@ -20,11 +25,30 @@
         @include onMobile-l{
            margin-bottom: 16px;
         }
+
+        @include onTablet {
+            margin-bottom: 23px;
+        }
     }
     
     &__post-list {
         margin: 0 0 28px;
+
+        @include onTablet {
+            margin: 0 0 33px;
+        }
+    
+        @include onTablet-l {
+            margin: 0 0 35px;
+        }
+    
+        @include onDekstop {
+            margin: 0 0 56px;
+
+        }
     }
+
+    
 }
 
 

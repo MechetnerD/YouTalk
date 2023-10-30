@@ -2,7 +2,16 @@
     padding: 35px 0;
     background-color: #2963A3;
 
-    &__Tablet {
+    &__Tablet--l {
+        @include onTablet-l {
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__Tablet--s {
         @include onTablet {
             display: flex;
             flex-direction: row;
@@ -25,6 +34,10 @@
 
     &__nav {
         margin-bottom: 23px;
+
+        @include onTablet-l {
+            margin-bottom: 24px;
+        }
     }
 
     &-nav__list {
@@ -35,6 +48,7 @@
     }
 
     &-nav__link {
+        font-family: 'Montserrat-bold';
         font-size: 16px;
         font-weight: 700;
         line-height: 24px;
@@ -60,26 +74,45 @@
         opacity: 0.7;
         color: #fff;
     }
+
+    &__media {
+            display: flex;
+            flex-direction: column;
+        }
+      
+    
     
     &__member {
         margin-bottom: 20px;
+
+        @include onTablet {
+            margin-bottom: 40px;
+        }
     }
     
     &__socialmedia {
-       height: 52px;
+       
         margin-bottom: 20px;
         display: flex;
         flex-direction: row;
         gap: 20px;
-        border-bottom: 2px solid rgba(157,157,157,0.3);
+
+        @include onTablet {
+            margin-bottom: 26px;
+        }
+        
     }
 
     &__copyright {
+        padding-top: 20px;
         display: flex;
         flex-direction: column;
         gap: 20px;
 
+        border-top: 2px solid rgb(157, 157, 157, 30%);
+
         @include onTablet{
+            padding-top: 16px;
             display: flex;
             flex-direction: row;
             gap: 48px;

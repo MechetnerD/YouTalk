@@ -4,13 +4,28 @@
   height: 56px;
   border: 1px solid #eff5fb;
 
+  @include onMobile-l{
+    height: 72px;
+  }
+
+  @include onTablet-l {
+    height: 76px;
+
+  }
+
   &__content {
     display: flex;
     height: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
+
+    @include onTablet-l {
+      justify-content: unset;
+      position: relative;
+    }
+
+   }
 
   &__burger-menu {
     display: flex;
@@ -18,6 +33,10 @@
     align-items: center;
     height: 40px;
     width: 40px;
+
+    @include onTablet-l {
+      display: none;
+    }
   }
   
   &__burger-menu-container {
@@ -26,6 +45,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
   }
 }
 

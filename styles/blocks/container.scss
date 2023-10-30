@@ -13,6 +13,26 @@
     width: 768px;
     padding: 0 20px;
   }
+
+  @include onTablet-l {
+    width: 1024px;
+    padding: 0 32px;
+  }
+
+  @include onDekstop {
+    width: 1440px;
+    padding: 0 120px;
+
+  }
+
+  &--designe {
+    @include onDekstop {
+      background-image: url(/images/page_designe/blue-design.svg);
+      background-position: 0 256px;
+      background-repeat: no-repeat ;
+      backface-visibility: hidden;
+    }
+  }
   
   &__sidebar {
 
