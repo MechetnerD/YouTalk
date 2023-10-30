@@ -1,6 +1,7 @@
 .marker {
     &-list__title{
         margin-bottom: 8px; 
+        font-family: 'Montserrat-bold';
         font-weight: 700;
         line-height: 24px;
         color: #050404;
@@ -24,6 +25,7 @@
   
     &-list__item {
       color: #333;
+      font-family: 'Montserrat-medium';
       font-weight: 500;
       line-height: 24px;
       

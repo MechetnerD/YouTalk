@@ -1,0 +1,7 @@
+.wrap {
+ @include onTablet-l {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  }
+}

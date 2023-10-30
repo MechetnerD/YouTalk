@@ -1,12 +1,21 @@
 
 .card {
-  margin-bottom: 24px;
+  
 
   @include onTablet {
     width: calc(50% - 8px);
+    }
 
-  }
+    @include onTablet-l {
+      width: 222px;
+      }
 
+      @include onDekstop{
+        width: 282px;
+      }
+
+
+  
   
   &__gift{
     padding-top: 60px;
@@ -15,6 +24,7 @@
     border-radius: 16px;
 
     text-align: center ;
+    font-family: 'Montserrat-bold';
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -54,7 +64,7 @@
   }
 
   &__tariff{
-    margin-bottom: 60px;
+    
     padding: 16px;
     display: flex;
 
@@ -72,12 +82,9 @@
 
     @include onMobile-l {
       padding: 24px;
-      margin-bottom: 127px;
+    
     }
 
-    @include onTablet {
-      margin-bottom: 59px;
-    }
   }
 
 }

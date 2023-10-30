@@ -1,0 +1,41 @@
+.mb{
+&-16 {
+  margin-bottom: 16px;
+
+  @include onMobile-l {
+    margin-bottom: 24px;
+  }
+}
+
+&-40 {
+  margin-bottom: 40px;
+
+  @include onMobile-l {
+    margin-bottom: 24px;
+  }
+
+  @include onTablet {
+    margin-bottom: 36px;
+  }
+}
+
+
+&-60 {
+  margin-bottom: 60px;
+
+  @include onMobile-l {
+    margin-bottom: 127px;
+  }
+
+  @include onTablet {
+    margin-bottom: 59px;
+  }
+}
+
+&-48 {
+  @include onDekstop {
+    margin-bottom: 48px;
+  }
+}
+
+}

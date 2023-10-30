@@ -35,15 +35,61 @@
   }
   
   &__sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 
     @include onTablet {
       display: flex;
+      flex-direction: unset;
       flex-wrap: wrap;
       column-gap: 16px;
       row-gap: 36px;
     }
+
+    @include onTablet-l {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+  
+    }
+
+
   
   
+  }
+
+  &__paragraph {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    @include onMobile-l {
+      gap: 16px;
+    }
+
+    @include onTablet{
+      display: flex;
+    }
+    
+  }
+
+ &--wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+  @include onDekstop {
+    gap: 228px;
+  }
+ 
+  }
+ 
+  &--ontablet-l {
+    @include onTablet-l {
+      margin-bottom: 71px;
+    }
   }
 
 

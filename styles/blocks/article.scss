@@ -1,6 +1,7 @@
 .article {
   &__title {
     margin-bottom: 8px;
+    font-family: 'Montserrat-bold';
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
@@ -25,26 +26,62 @@
 
   &__picture {
     width: 100%;
+    object-fit: contain;
 
   }
 
- 
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    @include onMobile-l {
+      gap: 16px;
+    }
+  }
+ &__subtitle {
+  font-family: 'Montserrat-bold';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000;
+ }
 
 
-  &__picture--h160 {
+  &__picture--h1 {
     
       height: 160px;
       width: 100%;
       object-fit: cover;
       object-position: center;
-    }
 
-    &__picture--h331 {
-    
-      height: 331px;
-      width: 100%;
-      object-fit: cover;
-      object-position: center;
+      @include onMobile-l {
+        height: 207px;
+      }
+
+      @include onTablet {
+        height: 331px;
+        object-fit: cover;
+      }
+
+      &--tablet {
+        @include onTablet {
+          width: 294px;
+          height: 182px;
+        }
+       
+      }
+
+
+
+      
+  }
+    &__quote {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
     }
 
   &__picture--h380 {
@@ -77,77 +114,64 @@
       object-position: center;
     }
     
-  &__paragraph--quote {
-    margin-bottom: 40px;
+  
 
-    @include onMobile-l {
-      margin-bottom: 24px;
-    }
-  }
-
-  &__block {
-    &--mb-16 {
-        margin-bottom: 16px;
-
-      }
-
-    &--mb-8 {
-      margin-bottom: 8px;
-      
-    }
-
-    &--mb-24 {
-        @include onMobile-l {
-          margin-bottom: 24px;
-        }
-
-        @include onTablet {
-          margin-bottom: 24px;
-        }
-    }
-    
-  }
-
-  &__subtitle {
-    margin-bottom: 8px;
-
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 700;
-    
-    color: #333;
-        @include onMobile-l {
-          margin-bottom: 16px;
-        }
-
-  }
+  
 
   &__paragraph {
-    margin-bottom: 8px;
+
     color:  #333;
+    font-family: 'Montserrat-medium';
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-         
-    @include onMobile-l {
-            margin-bottom: 16px;
-          }
-    &--3-ontablet{
+
+    &--2 {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+   &--3{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
       @include onTablet {
           display: flex;
+          flex-direction: row;
           gap: 16px;
     }
-
-    }
     }
 
-    &__quote {
-      margin-bottom: 16px;
-  }
+    &--4 {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      @include onMobile-l {
+        gap: 24px;
+      }
+
+      @include onTablet {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+
+      }
+
+     
+
+    }
+
+
+    }
+
+
 
   &__exercise {
 
-    margin-bottom: 16px;
+
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -156,9 +180,7 @@
     align-self: stretch;
     border-radius: 16px;
 
-    @include onTablet {
-      margin-bottom: 24px;
-    }
+
   
 
       &--yellow {
@@ -171,6 +193,8 @@
 
       &--green {
         background: rgba(3, 178, 165, 0.10);
+
+        
     }
   }
 
@@ -183,9 +207,23 @@
     width: max-content;
     gap: 4px;
 
+    &--desktop{
+      display: none;
+
+      @include onDekstop {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      align-items: center;
+     
+      column-gap: 8px;
+      }
+    }
+
 
     &__item {
       color: #494949;
+    
       font-size: 14px;
       font-weight: 400;
       line-height: 20px;
