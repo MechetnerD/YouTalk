@@ -59,37 +59,37 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/montserrat-regular.woff2") format("woff2"), url("/fonts/montserrat-regular.ttf") format("truetype");
+  src: url("fonts/montserrat-regular.woff2") format("woff2"), url("fonts/montserrat-regular.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-bold";
-  src: url("/fonts/Montserrat-Bold.woff2") format("woff2"), url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  src: url("fonts/Montserrat-Bold.woff2") format("woff2"), url("fonts/Montserrat-Bold.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-medium";
-  src: url("/fonts/Montserrat-Medium.woff2") format("woff2"), url("/fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("fonts/Montserrat-Medium.woff2") format("woff2"), url("fonts/Montserrat-Medium.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-semibold";
-  src: url("/fonts/Montserrat-SemiBold.woff2") format("woff2"), url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("fonts/Montserrat-SemiBold.woff2") format("woff2"), url("fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-italic";
-  src: url("/fonts/Montserrat-Italic.woff2") format("woff2"), url("/fonts/Montserrat-Italic.ttf") format("truetype");
+  src: url("fonts/Montserrat-Italic.woff2") format("woff2"), url("fonts/Montserrat-Italic.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/open-sans.woff") format("woff"), url("/fonts/open-sans.ttf") format("truetype");
+  src: url("fonts/open-sans.woff") format("woff"), url("fonts/open-sans.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
@@ -174,14 +174,14 @@ table {
   .container {
     width: 1440px;
     padding: 0 120px;
-    background-image: url("/images/page_designe/redspot-center.png");
+    background-image: url("images/page_designe/redspot-center.png");
     background-position: top 2148px right 0;
     background-repeat: no-repeat;
   }
 }
 @media (min-width: 1440px) {
   .container--designe {
-    background-image: url("/images/page_designe/blue-design.svg");
+    background-image: url("images/page_designe/blue-design.svg");
     background-position: 0 256px;
     background-repeat: no-repeat;
     backface-visibility: hidden;
@@ -540,7 +540,7 @@ table {
   display: block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/categories-link/smile.png");
+  background-image: url("images/categories-link/smile.png");
 }
 .categories__link--unicorn::before {
   content: "";
@@ -550,7 +550,7 @@ table {
   width: 18px;
   height: 18px;
   padding: 1px;
-  background-image: url("/images/categories-link/unicorn.png");
+  background-image: url("images/categories-link/unicorn.png");
 }
 @media (min-width: 414px) {
   .categories__link--unicorn--self {
@@ -689,8 +689,7 @@ table {
   }
 }
 .post__date {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
@@ -1107,7 +1106,7 @@ table {
   /* margin-bottom: 16px; */
   /*  */
   align-content: center;
-  background-image: url(/images/quote/redspot.svg#redspot);
+  background-image: url("images/quote/redspot.svg#redspot");
   background-size: 240px 168px;
   background-position: top 4px center;
   background-repeat: no-repeat;
@@ -1146,7 +1145,7 @@ table {
 
 .design {
   height: 32px;
-  background-image: url("/images/page_designe/designe.png");
+  background-image: url("images/page_designe/designe.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1177,7 +1176,7 @@ table {
   line-height: 40px;
   color: #FFF;
   background-color: #2963A3;
-  background-image: url("/images/card__gift/redbox.png"), url("/images/card__gift/yellowbox.png"), url("/images/card__gift/bluebox.png"), url("/images/card__gift/gift.png");
+  background-image: url("images/card__gift/redbox.png"), url("images/card__gift/yellowbox.png"), url("images/card__gift/bluebox.png"), url("images/card__gift/gift.png");
   background-position: bottom right, bottom left 10px, bottom right, top;
   background-repeat: no-repeat;
 }
@@ -1209,7 +1208,7 @@ table {
   border-radius: 16px;
   border: 1px solid #DEDEDE;
   background: #FFF;
-  background-image: url("/images/card__tariff/tariff-bluebox.png"), url("/images/card__tariff/tariff-redbox.png");
+  background-image: url("images/card__tariff/tariff-bluebox.png"), url("images/card__tariff/tariff-redbox.png");
   background-position: bottom 0 right 0, bottom 0 right 42px;
   background-repeat: no-repeat;
 }
@@ -1280,7 +1279,7 @@ table {
 .appointment__img {
   margin-bottom: 24px;
   height: 206px;
-  background-image: url("/images/appoitment/app-img.png");
+  background-image: url("images/appoitment/app-img.png");
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -1349,7 +1348,7 @@ table {
 }
 
 .find-psychologist {
-  background-image: url(/images/page_designe/redspot-bottom.png), url(/images/page_designe/blue-design-bottom.png);
+  background-image: url("images/page_designe/redspot-bottom.png"), url("images/page_designe/blue-design-bottom.png");
   background-position: top 72px right 0px, bottom;
   background-repeat: no-repeat;
   background-size: 73px, 100%;
@@ -1378,7 +1377,7 @@ table {
   height: 330px;
   display: flex;
   justify-content: end;
-  background-image: url(/images/page_designe/bottom-people.png), url(/images/page_designe/bottom-people-spot.png);
+  background-image: url("images/page_designe/bottom-people.png"), url("images/page_designe/bottom-people-spot.png");
   background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
@@ -1545,7 +1544,7 @@ table {
   right: 0px;
   bottom: 0;
   width: 64px;
-  background: url("/images/send/send.png"), #16c8bb;
+  background: url("images/send/send.png"), #16c8bb;
   background-size: 24px, cover;
   background-repeat: no-repeat;
   background-position: center;
