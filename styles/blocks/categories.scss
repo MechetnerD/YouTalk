@@ -74,7 +74,7 @@
      display: block;
      width: 18px;
      height: 18px;
-     background-image: url("images/categories-link/smile.png");
+     background-image: url('images/categories-link/smile.png');
  }
  
  &__link--unicorn::before {
@@ -85,7 +85,7 @@
      width: 18px;
      height: 18px;
      padding: 1px;
-     background-image: url("images/categories-link/unicorn.png");
+     background-image: url('images/categories-link/unicorn.png');
 
  }
 
@@ -121,7 +121,7 @@
     width: 16px;
     height: 24px;
     
-    background-image: url("/images/card__psyhologist/paper.png");
+    background-image: url('images/card__psyhologist/paper.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@
     width: 16px;
     height: 24px;
     
-    background-image: url("/images/card__psyhologist/camera.png");
+    background-image: url('images/card__psyhologist/camera.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
