@@ -59,37 +59,37 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("fonts/montserrat-regular.woff2") format("woff2"), url("fonts/montserrat-regular.ttf") format("truetype");
+  src: url("../fonts/montserrat-regular.woff2") format("woff2"), url("../fonts/montserrat-regular.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-bold";
-  src: url("fonts/Montserrat-Bold.woff2") format("woff2"), url("fonts/Montserrat-Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-medium";
-  src: url("fonts/Montserrat-Medium.woff2") format("woff2"), url("fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-semibold";
-  src: url("fonts/Montserrat-SemiBold.woff2") format("woff2"), url("fonts/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat-italic";
-  src: url("fonts/Montserrat-Italic.woff2") format("woff2"), url("fonts/Montserrat-Italic.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Italic.woff2") format("woff2"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("fonts/open-sans.woff") format("woff"), url("fonts/open-sans.ttf") format("truetype");
+  src: url("../fonts/open-sans.woff") format("woff"), url("../fonts/open-sans.ttf") format("truetype");
   font-size: normal;
   font-weight: normal;
 }
@@ -550,7 +550,7 @@ table {
   width: 18px;
   height: 18px;
   padding: 1px;
-  background-image: url(images/categories-link/unicorn.png);
+  background-image: url("../images/categories-link/unicorn.png");
 }
 @media (min-width: 414px) {
   .categories__link--unicorn--self {
@@ -579,7 +579,7 @@ table {
   align-items: center;
   width: 16px;
   height: 24px;
-  background-image: url(images/card__psyhologist/paper.png);
+  background-image: url("../images/card__psyhologist/paper.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -591,7 +591,7 @@ table {
   align-items: center;
   width: 16px;
   height: 24px;
-  background-image: url(images/card__psyhologist/camera.png);
+  background-image: url("../images/card__psyhologist/camera.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

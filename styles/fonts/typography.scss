@@ -1,8 +1,8 @@
 @font-face{
   font-family: "Montserrat";
   src:   
- url("fonts/montserrat-regular.woff2") format("woff2"),
- url("fonts/montserrat-regular.ttf") format("truetype");
+ url("../fonts/montserrat-regular.woff2") format("woff2"),
+ url("../fonts/montserrat-regular.ttf") format("truetype");
  font-size: normal;
  font-weight: normal;
 }
@@ -10,8 +10,8 @@
 @font-face{
   font-family: "Montserrat-bold";
   src:   
- url("fonts/Montserrat-Bold.woff2") format("woff2"),
- url("fonts/Montserrat-Bold.ttf") format("truetype");
+ url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+ url("../fonts/Montserrat-Bold.ttf") format("truetype");
  font-size: normal;
  font-weight: normal;
 }
@@ -19,8 +19,8 @@
 @font-face{
   font-family: "Montserrat-medium";
   src:   
- url("fonts/Montserrat-Medium.woff2") format("woff2"),
- url("fonts/Montserrat-Medium.ttf") format("truetype");
+ url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+ url("../fonts/Montserrat-Medium.ttf") format("truetype");
  font-size: normal;
  font-weight: normal;
 }
@@ -28,8 +28,8 @@
 @font-face{
   font-family: "Montserrat-semibold";
   src:   
- url("fonts/Montserrat-SemiBold.woff2") format("woff2"),
- url("fonts/Montserrat-SemiBold.ttf") format("truetype");
+ url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+ url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
  font-size: normal;
  font-weight: normal;
 }
@@ -37,8 +37,8 @@
 @font-face{
   font-family: "Montserrat-italic";
   src:   
- url("fonts/Montserrat-Italic.woff2") format("woff2"),
- url("fonts/Montserrat-Italic.ttf") format("truetype");
+ url("../fonts/Montserrat-Italic.woff2") format("woff2"),
+ url("../fonts/Montserrat-Italic.ttf") format("truetype");
  font-size: normal;
  font-weight: normal;
 }
@@ -47,8 +47,8 @@
 @font-face{
   font-family: "Open Sans";
   src:   
- url("fonts/open-sans.woff") format("woff"),
- url("fonts/open-sans.ttf") format("truetype");
+ url("../fonts/open-sans.woff") format("woff"),
+ url("../fonts/open-sans.ttf") format("truetype");
  font-size: normal;
  font-weight: normal;
 }
