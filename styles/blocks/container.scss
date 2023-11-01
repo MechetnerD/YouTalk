@@ -23,11 +23,15 @@
     width: 1440px;
     padding: 0 120px;
 
+    background-image: url('/images/page_designe/redspot-center.png');
+    background-position: top 2148px right 0;
+    background-repeat: no-repeat;
+
   }
 
   &--designe {
     @include onDekstop {
-      background-image: url(/images/page_designe/blue-design.svg);
+      background-image: url('/images/page_designe/blue-design.svg');
       background-position: 0 256px;
       background-repeat: no-repeat ;
       backface-visibility: hidden;
@@ -90,6 +94,29 @@
     @include onTablet-l {
       margin-bottom: 71px;
     }
+
+    @include onDekstop {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__find-psychologist {
+    display: none;
+
+     @include onDekstop {
+      display: flex;
+      padding-right: 0px;
+      padding-bottom: 107px;
+      padding-top: 72px;
+      border-top: 1px solid #DEDEDE;
+      gap: 339px;
+
+      background-image: url(/images/page_designe/redspot-bottom.png), url(/images/page_designe/blue-design-bottom.png);
+      background-position: top 72px right 0px, bottom;
+      background-repeat: no-repeat;
+
+ 
+     }
   }
 
 
