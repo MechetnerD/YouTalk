@@ -70,9 +70,14 @@
 
  &--wrap {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 24px;
 
+  @include onTablet-l{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
   @include onDekstop {
     gap: 228px;
   }

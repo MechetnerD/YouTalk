@@ -233,8 +233,15 @@ a {
 }
 .container--wrap {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 24px;
+}
+@media (min-width: 1024px) {
+  .container--wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 }
 @media (min-width: 1440px) {
   .container--wrap {
