@@ -28,5 +28,22 @@
     
     font-weight: 500;
     line-height: 20px;
+
+
+    @include onTablet-l{
+      display: none;
+    }
+
+    &--ontablet-l {
+      display: flex;
+      margin-bottom: 16px;
+      color:  #A2A7B1;
+      font-family: 'Montserrat-medium';
+      font-size: 14px;
+      
+      font-weight: 500;
+      line-height: 20px;
+    }
   }
+
 }

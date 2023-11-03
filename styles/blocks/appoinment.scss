@@ -8,6 +8,19 @@
     background-position: center bottom;
     background-repeat: no-repeat;
 
+    @include onTablet-l {
+  
+      height: 145px;
+      background-size: contain;
+    }
+
+    @include onDekstop {
+  
+      height: 206px;
+      background-size: auto;
+
+    }
+
   }
 
   &__title{

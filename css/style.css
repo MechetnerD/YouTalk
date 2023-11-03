@@ -203,7 +203,6 @@ a {
 @media (min-width: 768px) {
   .container__sidebar {
     display: flex;
-    flex-direction: unset;
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 36px;
@@ -1291,6 +1290,20 @@ a {
   font-weight: 500;
   line-height: 20px;
 }
+@media (min-width: 1024px) {
+  .facts__details {
+    display: none;
+  }
+}
+.facts__details--ontablet-l {
+  display: flex;
+  margin-bottom: 16px;
+  color: #A2A7B1;
+  font-family: "Montserrat-medium";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
 
 .appointment__img {
   margin-bottom: 24px;
@@ -1298,6 +1311,18 @@ a {
   background-image: url("../images/appoitment/app-img.png");
   background-position: center bottom;
   background-repeat: no-repeat;
+}
+@media (min-width: 1024px) {
+  .appointment__img {
+    height: 145px;
+    background-size: contain;
+  }
+}
+@media (min-width: 1440px) {
+  .appointment__img {
+    height: 206px;
+    background-size: auto;
+  }
 }
 .appointment__title {
   margin-bottom: 11px;

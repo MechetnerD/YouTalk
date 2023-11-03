@@ -34,7 +34,6 @@
 
     @include onTablet {
       display: flex;
-      flex-direction: unset;
       flex-wrap: wrap;
       column-gap: 16px;
       row-gap: 36px;
