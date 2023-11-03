@@ -53,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -95,6 +99,21 @@ table {
 }
 .page {
   font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 1440px) {
+  .page--index {
+    background-image: url("../images/page_designe/blue-design.svg");
+    background-size: cover;
+    background-position: center 401px;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1440px) {
+  .page--post {
+    background-image: url("../images/page_designe/redspot-center.png"), url("../images/page_designe/blue-design-bottom.png");
+    background-position: right top 2480px, center bottom;
+    background-repeat: no-repeat;
+  }
 }
 .page__header {
   margin-bottom: 24px;
@@ -174,17 +193,6 @@ table {
   .container {
     width: 1440px;
     padding: 0 120px;
-    background-image: url("images/page_designe/redspot-center.png");
-    background-position: top 2148px right 0;
-    background-repeat: no-repeat;
-  }
-}
-@media (min-width: 1440px) {
-  .container--designe {
-    background-image: url("images/page_designe/blue-design.svg");
-    background-position: 0 256px;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
   }
 }
 .container__sidebar {
@@ -401,11 +409,6 @@ table {
   height: 14px;
 }
 
-@media (min-width: 1024px) {
-  .headline {
-    width: 714px;
-  }
-}
 .headline__title {
   margin-bottom: 24px;
   font-family: "Montserrat-bold";
@@ -757,6 +760,8 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
   text-align: center;
   background-color: #35B3A9;
   border-radius: 4px;
@@ -764,6 +769,10 @@ table {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+}
+.btn:hover {
+  background-color: #18605a;
+  color: whitesmoke;
 }
 .btn--more {
   width: 182px;
@@ -1082,7 +1091,7 @@ table {
 .quote--bluebgr {
   padding: 26px 16px 16px;
   border-radius: 16px;
-  background: url("/images/quote/quote.png"), #F3F7FE;
+  background: url("../images/quote/quote.png"), #F3F7FE;
   background-size: 24px 36px, 100%;
   background-position: top 16px left 16px, center;
   background-repeat: no-repeat;
@@ -1106,7 +1115,7 @@ table {
   /* margin-bottom: 16px; */
   /*  */
   align-content: center;
-  background-image: url("images/quote/redspot.svg#redspot");
+  background-image: url("../images/quote/redspot.svg#redspot");
   background-size: 240px 168px;
   background-position: top 4px center;
   background-repeat: no-repeat;
@@ -1176,7 +1185,7 @@ table {
   line-height: 40px;
   color: #FFF;
   background-color: #2963A3;
-  background-image: url("images/card__gift/redbox.png"), url("images/card__gift/yellowbox.png"), url("images/card__gift/bluebox.png"), url("images/card__gift/gift.png");
+  background-image: url("../images/card__gift/redbox.png"), url("../images/card__gift/yellowbox.png"), url("../images/card__gift/bluebox.png"), url("../images/card__gift/gift.png");
   background-position: bottom right, bottom left 10px, bottom right, top;
   background-repeat: no-repeat;
 }
@@ -1208,7 +1217,7 @@ table {
   border-radius: 16px;
   border: 1px solid #DEDEDE;
   background: #FFF;
-  background-image: url("images/card__tariff/tariff-bluebox.png"), url("images/card__tariff/tariff-redbox.png");
+  background-image: url("../images/card__tariff/tariff-bluebox.png"), url("../images/card__tariff/tariff-redbox.png");
   background-position: bottom 0 right 0, bottom 0 right 42px;
   background-repeat: no-repeat;
 }
@@ -1279,7 +1288,7 @@ table {
 .appointment__img {
   margin-bottom: 24px;
   height: 206px;
-  background-image: url("images/appoitment/app-img.png");
+  background-image: url("../images/appoitment/app-img.png");
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -1348,7 +1357,7 @@ table {
 }
 
 .find-psychologist {
-  background-image: url("images/page_designe/redspot-bottom.png"), url("images/page_designe/blue-design-bottom.png");
+  background-image: url("../images/page_designe/redspot-bottom.png"), url("../images/page_designe/blue-design-bottom.png");
   background-position: top 72px right 0px, bottom;
   background-repeat: no-repeat;
   background-size: 73px, 100%;
@@ -1377,7 +1386,7 @@ table {
   height: 330px;
   display: flex;
   justify-content: end;
-  background-image: url("images/page_designe/bottom-people.png"), url("images/page_designe/bottom-people-spot.png");
+  background-image: url("../images/page_designe/bottom-people.png"), url("../images/page_designe/bottom-people-spot.png");
   background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
@@ -1544,7 +1553,7 @@ table {
   right: 0px;
   bottom: 0;
   width: 64px;
-  background: url("images/send/send.png"), #16c8bb;
+  background: url("../images/send/send.png"), #16c8bb;
   background-size: 24px, cover;
   background-repeat: no-repeat;
   background-position: center;

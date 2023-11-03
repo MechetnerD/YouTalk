@@ -1,6 +1,26 @@
 .page {
   font-family: "Montserrat", sans-serif;
 
+  &--index {
+    @include onDekstop {
+      background-image: url("../images/page_designe/blue-design.svg");
+      background-size: cover;
+      background-position: center 401px;
+      background-repeat: no-repeat;
+  
+    }
+  }
+
+  &--post {
+    @include onDekstop {
+      background-image: url("../images/page_designe/redspot-center.png"), url("../images/page_designe/blue-design-bottom.png");
+
+      background-position: right top 2480px, center bottom;
+      background-repeat: no-repeat;
+  
+    }
+  }
+
   &__header {
     margin-bottom: 24px;
 

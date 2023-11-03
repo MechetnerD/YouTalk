@@ -1,9 +1,7 @@
 
 .headline {
 
-    @include onTablet-l {
-        width: 714px;
-    }
+  
 
     &__title {
         margin-bottom: 24px;

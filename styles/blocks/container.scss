@@ -23,20 +23,9 @@
     width: 1440px;
     padding: 0 120px;
 
-    background-image: url('images/page_designe/redspot-center.png');
-    background-position: top 2148px right 0;
-    background-repeat: no-repeat;
-
   }
 
-  &--designe {
-    @include onDekstop {
-      background-image: url('images/page_designe/blue-design.svg');
-      background-position: 0 256px;
-      background-repeat: no-repeat ;
-      backface-visibility: hidden;
-    }
-  }
+  
   
   &__sidebar {
     display: flex;
