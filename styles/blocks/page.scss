@@ -4,7 +4,8 @@
   &--index {
     @include onDekstop {
       background-image: url("../images/page_designe/blue-design.svg");
-      background-size: cover;
+      background-size: 100% auto;
+
       background-position: center 401px;
       background-repeat: no-repeat;
   
