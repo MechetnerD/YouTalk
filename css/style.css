@@ -1154,7 +1154,7 @@ a {
 
 .design {
   height: 32px;
-  background-image: url("images/page_designe/designe.png");
+  background-image: url("../images/page_designe/designe.png");
   background-repeat: no-repeat;
   background-position: center;
 }
